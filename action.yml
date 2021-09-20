@@ -4,7 +4,7 @@ inputs:
   semantic-release-version:
     description: 'semantic-release version'
     required: true
-    default: 18
+    default: '18'
 runs:
   using: "composite"
   steps:
