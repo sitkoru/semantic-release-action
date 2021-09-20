@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/sitkoru/semantic-release-action/compare/v1.1.1...v1.1.2) (2021-09-20)
+
+
+### Bug Fixes
+
+* **ci:** republish latest tag as major version ([5206389](https://github.com/sitkoru/semantic-release-action/commit/5206389a103c00c552299f8937f141a0a76d38e9))
+
 # [1.1.0](https://github.com/sitkoru/semantic-release-action/compare/v1.0.3...v1.1.0) (2021-09-20)
 
 
