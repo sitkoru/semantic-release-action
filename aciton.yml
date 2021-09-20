@@ -1,0 +1,20 @@
+name: 'semantic-release action'
+description: 'Action to run semantic-release with deps for sitkoru/semantic-release-config preinstalled'
+inputs:
+  semantic-release-version:
+    description: 'semantic-release version'
+    required: true
+    default: 18
+runs:
+  using: "composite"
+  steps:
+    - name: Install node.js
+      uses: actions/setup-node@v2.4.0
+      with:
+        node-version: "16"
+    - name: Install semantic-release with plugins
+      run: npm install --global semantic-release@${{ inputs.semantic-release-version }} @sitkoru/semantic-release-config @semantic-release/changelog @semantic-release/git
+      shell: bash
+    - name: Run semantic-release
+      run: npx semantic-release@${{ inputs.semantic-release-version }}
+      shell: bash
