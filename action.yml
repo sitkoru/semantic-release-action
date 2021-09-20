@@ -12,9 +12,6 @@ runs:
       uses: actions/setup-node@v2.4.0
       with:
         node-version: "16"
-    - name: Install semantic-release with plugins
-      run: npm install --global semantic-release@${{ inputs.semantic-release-version }} @sitkoru/semantic-release-config @semantic-release/changelog @semantic-release/git
-      shell: bash
     - name: Run semantic-release
-      run: npx semantic-release@${{ inputs.semantic-release-version }}
+      run: npx --package @sitkoru/semantic-release-config --package @semantic-release/changelog --package @semantic-release/git --package semantic-release@17 -y semantic-release
       shell: bash
