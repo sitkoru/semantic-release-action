@@ -1,7 +1,8 @@
 name: 'sitkoru/semantic-release-action'
 description: 'Action to run semantic-release with deps for sitkoru/semantic-release-config preinstalled'
-icon: 'package'
-color: 'blue'
+branding:
+  icon: 'package'
+  color: 'blue'
 inputs:
   semantic-release-version:
     description: 'semantic-release version'
