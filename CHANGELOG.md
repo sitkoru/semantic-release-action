@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/sitkoru/semantic-release-action/compare/v1.2.0...v1.2.1) (2021-09-21)
+
+
+### Bug Fixes
+
+* **github:** lock github plugin version ([8d6b536](https://github.com/sitkoru/semantic-release-action/commit/8d6b536b1b9d8d72f2557b57863d03f565e03ade))
+
 # [1.2.0](https://github.com/sitkoru/semantic-release-action/compare/v1.1.2...v1.2.0) (2021-09-21)
 
 
