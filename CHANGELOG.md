@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/sitkoru/semantic-release-action/compare/v1.1.2...v1.2.0) (2021-09-21)
+
+
+### Features
+
+* **versios:** lock cli and plugins versions ([cc175ba](https://github.com/sitkoru/semantic-release-action/commit/cc175ba9dbdf630a41d5b0161581f7ed453bf7f7))
+
 ## [1.1.2](https://github.com/sitkoru/semantic-release-action/compare/v1.1.1...v1.1.2) (2021-09-20)
 
 
