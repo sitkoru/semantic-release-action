@@ -3,11 +3,6 @@ description: 'Action to run semantic-release with deps for sitkoru/semantic-rele
 branding:
   icon: 'package'
   color: 'blue'
-inputs:
-  semantic-release-version:
-    description: 'semantic-release version'
-    required: true
-    default: '17'
 runs:
   using: "composite"
   steps:
@@ -16,5 +11,5 @@ runs:
       with:
         node-version: "16"
     - name: Run semantic-release
-      run: npx --package @sitkoru/semantic-release-config --package @semantic-release/changelog --package @semantic-release/git --package semantic-release@17 -y semantic-release
+      run: npx --package @sitkoru/semantic-release-config --package @semantic-release/changelog@5 --package @semantic-release/git@9 --package semantic-release@17 -y semantic-release
       shell: bash
