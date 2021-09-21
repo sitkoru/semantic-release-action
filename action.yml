@@ -11,5 +11,5 @@ runs:
       with:
         node-version: "16"
     - name: Run semantic-release
-      run: npx --package @sitkoru/semantic-release-config --package @semantic-release/changelog@5 --package @semantic-release/git@9 --package semantic-release@17 -y semantic-release
+      run: npx --package @sitkoru/semantic-release-config --package @semantic-release/changelog@5 --package @semantic-release/git@9 --package @semantic-release/github@7 --package semantic-release@17 -y semantic-release
       shell: bash
