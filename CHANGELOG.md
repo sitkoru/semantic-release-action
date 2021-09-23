@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/sitkoru/semantic-release-action/compare/v1.2.1...v1.3.0) (2021-09-23)
+
+
+### Features
+
+* **action:** semantic-release v18 ([a3569ed](https://github.com/sitkoru/semantic-release-action/commit/a3569ede71288d697d6b005af21d9b191573f817))
+
 ## [1.2.1](https://github.com/sitkoru/semantic-release-action/compare/v1.2.0...v1.2.1) (2021-09-21)
 
 
