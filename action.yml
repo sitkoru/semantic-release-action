@@ -6,9 +6,6 @@ branding:
 runs:
   using: "composite"
   steps:
-    - name: Who am i?
-      run: whoami
-      shell: bash
     - name: Install node.js
       uses: actions/setup-node@v2.4.0
       with:
