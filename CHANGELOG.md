@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/sitkoru/semantic-release-action/compare/v1.4.0...v1.5.0) (2021-12-28)
+
+
+### Bug Fixes
+
+* remove whoami step ([9e71a09](https://github.com/sitkoru/semantic-release-action/commit/9e71a09b917d4f7c84c6e608b968fc7149632f99))
+
+
+### Features
+
+* use simple github action version ([904d1bf](https://github.com/sitkoru/semantic-release-action/commit/904d1bf9de2f7670f008204f4c08928a8af7fcb4))
+
 # [1.4.0](https://github.com/sitkoru/semantic-release-action/compare/v1.3.0...v1.4.0) (2021-11-25)
 
 
