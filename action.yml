@@ -7,9 +7,9 @@ runs:
   using: "composite"
   steps:
     - name: Install node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
         node-version: "16"
     - name: Run semantic-release
-      run: npx --package @sitkoru/semantic-release-config --package @semantic-release/changelog@6 --package @semantic-release/git@10 --package @semantic-release/github@8 --package semantic-release@18 -y semantic-release
+      run: npx --package @sitkoru/semantic-release-config --package @semantic-release/github@8 --package semantic-release@19 -y semantic-release
       shell: bash
