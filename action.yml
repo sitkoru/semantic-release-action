@@ -10,6 +10,9 @@ runs:
       uses: actions/setup-node@v3
       with:
         node-version: "16"
+    - name: Fix .git directory
+      run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      shell: bash
     - name: Run semantic-release
       run: npx --package @sitkoru/semantic-release-config --package @semantic-release/github@8 --package semantic-release@19 -y semantic-release
       shell: bash
