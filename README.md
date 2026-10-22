@@ -1,6 +1,11 @@
 # semantic-release-action
 Action to run semantic-release with deps for semantic-release-config preinstalled
 
+## Требования
+
+Действие устанавливает Node.js 24 и требует Actions Runner v2.327.1 или новее.
+Версии пакетов semantic-release 19 и @semantic-release/github 8 сохранены.
+
 ## Usage
 
 ```yml
@@ -25,7 +30,7 @@ jobs:
     if: ${{ github.event_name == 'push' }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v7.0.1
         with:
           fetch-depth: 0
           persist-credentials: false
