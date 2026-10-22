@@ -15,7 +15,7 @@ name: Main
 on:
   push:
     branches:
-      - "*"
+      - "main"
   pull_request:
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     needs: [build]
-    if: ${{ github.event_name == 'push' }}
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v7.0.1
