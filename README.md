@@ -5,6 +5,7 @@ Action to run semantic-release with deps for semantic-release-config preinstalle
 
 Действие устанавливает Node.js 24 и требует Actions Runner v2.327.1 или новее.
 Версии пакетов semantic-release 19 и @semantic-release/github 8 сохранены.
+В примере замените `<commit-sha>` на полный SHA проверенного коммита с этим обновлением.
 
 ## Usage
 
@@ -35,7 +36,7 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
       - name: Semantic Release
-        uses: sitkoru/semantic-release-action@v1
+        uses: sitkoru/semantic-release-action@<commit-sha>
         env:
           GH_TOKEN: # GH TOKEN
           # other semantic-release env variables
