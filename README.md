@@ -23,7 +23,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-        # some build steps
+      - run: echo "Add build steps here"
   release:
     name: Release
     runs-on: ubuntu-latest
